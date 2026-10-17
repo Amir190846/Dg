@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-charcoal/60 z-10"></div>
-        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2000&auto=format&fit=crop" alt="Restaurant Interior" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-charcoal/70 z-10"></div>
+        <img src="/1.jpg" alt="Restaurant Interior" className="w-full h-full object-cover" />
       </div>
       <div className="relative z-20 text-center text-ivory px-4 mt-20">
         <motion.h1
